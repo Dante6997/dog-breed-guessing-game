@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+
+header {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.description-box {
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+main {
+    justify-content: center;
+}
+
+.question-box {
+    justify-content: center;
+    align-items: center;
+}
