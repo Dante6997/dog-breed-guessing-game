@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: lightgrey;
 }
 
+/* body {
+    background-image: url(./images/image.png);
+    background-position: center;
+} */
+
 header {
-    background-color: lightgreen;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -19,11 +22,25 @@ header {
     border: 5px solid black;
 }
 
-main {
-    justify-content: center;
+.container {
+    margin: 0 auto;
+    text-align: center;
 }
 
 .question-box {
-    justify-content: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+/*  make buttons vertical */
+.btn-container {
+    display: flex;
     align-items: center;
+    flex-direction: column;
+}
+
+.btns {
+    display: block;
+
 }
