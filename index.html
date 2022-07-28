@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal Game</title>
+    <title>Dog Breed Guessing Game</title>
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
     <header>
         <!-- connect dog.ceo api to animal images -->
         <div class="animal-images">
-            <img src="https://images.dog.ceo/breeds/hound-afghan/n02088094_1007.jpg", alt="dog images">
+            <img id="pic" src="https://images.dog.ceo/breeds/hound-basset/n02088238_517.jpg", alt="Image of Dog">
         </div>
 
         <!-- connect dog facts api to description -->
         <div class="description-box">
-            <p class="description">
+            <p class="description" id="description">
                 Animal Description
             </p>
         </div>
@@ -30,16 +32,37 @@
 
         <!-- -->
         <div class="btn-container">
-            <div class="btns">
+            <div class="btns" id="btns">
                 <!-- Primary buttons -->
-                <button class="button-primary" id="btn1">A</button>
-                <button class="button-primary" id="btn2">B</button>
-                <button class="button-primary" id="btn3">C</button>
-                <button class="button-primary" id="btn4">D</button>
-                <button class="button-primary" id="btn5">E</button>
+                <button class="button-primary" id="btn1">Australian Cattle Dog</button>
+                <button class="button-primary" id="btn2">Basset Hound</button>
+                <button class="button-primary" id="btn3">Chihuahua</button>
+                <button class="button-primary" id="btn4">Shetland Sheepdog</button>
+                <button class="button-primary" id="btn5">Border Collie</button>
          </div>
     </Main>
+
+    <!-- <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+    </div> -->
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="./assets/script.js"></script>
 </body>
 </html>
