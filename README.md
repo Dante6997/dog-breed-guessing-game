@@ -6,4 +6,5 @@ Dante Rodriguez, Tiffany Alvarez, Charles Danso
 - ### Our website displayed an image from the dog.ceo API and gave 5 answer choices. One of the answer choices is a dog breed that relates the the image. We also used another API called DogDummyAPI to get a description of the dog breed to pop up when a button is clicked.
 - ### THe technologies we used were API's, JavaScript, HTML, CSS, Skeleton, and Bootstrap. 
 
-![](./assets/images/)
+## Web Page
+![image](https://user-images.githubusercontent.com/106883670/181644270-7b1cbfcf-6333-4db6-a27f-de5b778e1bbb.png)
