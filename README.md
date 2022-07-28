@@ -1,5 +1,5 @@
 # Dog-Breed-Guessing-Game
-Dante Rodriguez, Tiffany Alvarez, Charles Danso
+By Dante Rodriguez, Tiffany Alvarez, Charles Danso
 ### Deployed Link: https://dante6997.github.io/dog-breed-guessing-game/
 ## Project 1
 - ### My group and I were tasked to develop our own website using at least 2 server side  API's while using a CSS framework other than Bootstrap.
